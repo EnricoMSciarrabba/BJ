@@ -51,20 +51,20 @@ Anche in questo caso, la probabilità *P<sub>win | y</sub>* iene calcolata in mo
 ## 🔁 Approccio Ricorsivo
 
 L'algoritmo esplora tutte le possibilità, aggiornando dinamicamente le probabilità a ogni iterazione e garantendo un calcolo accurato delle decisioni ottimali. Grazie a questo approccio:
-✅ Si tiene conto di tutte le possibili carte che possono essere pescate
-✅ Si valuta il comportamento del dealer in base alla sua strategia di gioco
-✅ Si ottiene una decisione ottimizzata che massimizza le probabilità di vittoria
+- Si tiene conto di tutte le possibili carte che possono essere pescate
+- Si valuta il comportamento del dealer in base alla sua strategia di gioco
+- Si ottiene una decisione ottimizzata che massimizza le probabilità di vittoria
 
 ## ⚡ Implementazione Tecnica
 
-📌 Linguaggio: C++ con Qt per la gestione dell’interfaccia grafica
-📌 Gestione dell’input: Selezione dinamica delle carte e configurazione personalizzata del mazzo
-📌 Ottimizzazione: Parametri configurabili per migliorare l’accuratezza delle decisioni
+- Linguaggio: C++ con Qt per la gestione dell’interfaccia grafica
+- Gestione dell’input: Selezione dinamica delle carte e configurazione personalizzata del mazzo
+- Ottimizzazione: Parametri configurabili per migliorare l’accuratezza delle decisioni
 
 ## 📂 Struttura del Progetto
 
-📁 BJ/ → Contiene l'implementazione dell'algoritmo probabilistico
-📁 Portable/ → Versione precompilata dell’applicazione
+- BJ/ → Contiene l'implementazione dell'algoritmo probabilistico
+- Portable/ → Versione precompilata dell’applicazione
 
 ## 🎯 Applicazione all'Analisi del Blackjack
 
