@@ -15,6 +15,10 @@ Per calcolare la probabilità di successo pescando, dobbiamo considerare ogni po
 X l'insieme delle carte disponibili nel mazzo, la probabilità complessiva è data dalla somma ponderata delle probabilità condizionate di vittoria per ogni carta possibile:
 
  \( P_{hit} = \sum_{x \in X} P(x) \cdot P_{win | x} \)
+
+ $$
+P_{hit} = \sum_{x \in X} P(x) \cdot P_{win | x}
+$$
  
 Dove:
 
