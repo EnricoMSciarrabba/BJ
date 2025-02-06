@@ -1,27 +1,22 @@
-# Blackjack Win Probability Calculator 🎰🃏
+# Probabilità Condizionata e Algoritmo Ricorsivo per Decisioni Ottimali
 
-Hai mai voluto sapere quanto conviene pescare o stare in una partita di Blackjack?
-🔢 Questo software ti aiuta a calcolare la probabilità di vincita in tempo reale, basandosi sulle carte in gioco e sui mazzi disponibili!
+💡 Analisi delle scelte probabilistiche in scenari decisionali incerti
 
-## 🚀 Funzionalità
+Questo progetto implementa un algoritmo ricorsivo basato sulle probabilità condizionate per valutare la scelta ottimale tra due azioni possibili. L'obiettivo è determinare la probabilità di successo scegliendo tra pescare o stare, utilizzando un modello basato sulla teoria delle probabilità e un approccio iterativo per l'aggiornamento delle decisioni.
 
-✅ Seleziona le carte del player e del dealer
-✅ Imposta il numero di mazzi nel deck
-✅ Analizza le carte rimanenti nel mazzo
-✅ Calcola la probabilità di vincere pescando o stando
-✅ Ottimizzazione personalizzabile: imposta un valore sotto cui il software suggerisce sempre di pescare
+## 📊 Algoritmo di Calcolo delle Probabilità
 
-## 📂 Struttura del Progetto
+Per determinare la probabilità di vincere pescando e la probabilità di vincere stando, il sistema si basa su un modello probabilistico ricorsivo.
 
-📁 BJ/ → Contiene il codice sorgente in C++ con Qt
-📁 Portable/ → Versione pronta all’uso (non richiede installazione)
+## 1️⃣ Probabilità di vincere pescando
 
-## 📥 Download & Utilizzo
+Per calcolare la probabilità di successo pescando, dobbiamo considerare ogni possibile carta che può essere estratta. Se chiamiamo 
+𝑋
+X l'insieme delle carte disponibili nel mazzo, la probabilità complessiva è data dalla somma ponderata delle probabilità condizionate di vittoria per ogni carta possibile:
 
-Scarica la cartella Portable/ e avvia l’applicazione
-Seleziona le carte del giocatore e del dealer
-Personalizza le impostazioni (mazzi, ottimizzazione, ecc.)
-Visualizza le probabilità e migliora la tua strategia!
-Se vuoi contribuire o migliorare l'algoritmo, esplora la cartella BJ/ e proponi modifiche! 🚀
+ \( P_{hit} = \sum_{x \in X} P(x) \cdot P_{win | x} \)
+ 
+Dove:
+
 
 ![Alt text](Img/Gui.png)
