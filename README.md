@@ -4,6 +4,8 @@
 
 Questo progetto implementa un algoritmo ricorsivo basato sulle probabilità condizionate per valutare la scelta ottimale tra due azioni possibili. L'obiettivo è determinare la probabilità di successo scegliendo tra pescare o stare, utilizzando un modello basato sulla teoria delle probabilità e un approccio iterativo per l'aggiornamento delle decisioni.
 
+<span>&nbsp;</span>
+
 ## 📊 Algoritmo di Calcolo delle Probabilità
 
 Per determinare la probabilità di vincere pescando e la probabilità di vincere stando, il sistema si basa su un modello probabilistico ricorsivo.
@@ -48,6 +50,8 @@ Dove:
 
 Anche in questo caso, la probabilità *P<sub>win | y</sub>* iene calcolata in modo ricorsivo, perché il dealer può anche decidere di pescare in base alle regole del gioco.
 
+<span>&nbsp;</span>
+
 ## 🔁 Approccio Ricorsivo
 
 L'algoritmo esplora tutte le possibilità, aggiornando dinamicamente le probabilità a ogni iterazione e garantendo un calcolo accurato delle decisioni ottimali. Grazie a questo approccio:
@@ -55,16 +59,22 @@ L'algoritmo esplora tutte le possibilità, aggiornando dinamicamente le probabil
 - Si valuta il comportamento del dealer in base alla sua strategia di gioco
 - Si ottiene una decisione ottimizzata che massimizza le probabilità di vittoria
 
+<span>&nbsp;</span>
+
 ## ⚡ Implementazione Tecnica
 
 - Linguaggio: C++ con Qt per la gestione dell’interfaccia grafica
 - Gestione dell’input: Selezione dinamica delle carte e configurazione personalizzata del mazzo
 - Ottimizzazione: Parametri configurabili per migliorare l’accuratezza delle decisioni
 
+<span>&nbsp;</span>
+
 ## 📂 Struttura del Progetto
 
 - BJ/ → Contiene l'implementazione dell'algoritmo probabilistico
 - Portable/ → Versione precompilata dell’applicazione
+
+<span>&nbsp;</span>
 
 ## 🎯 Applicazione all'Analisi del Blackjack
 
