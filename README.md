@@ -18,8 +18,8 @@ P_{hit} = \sum_{x \in X} P(x) \cdot P_{win | x}
 $$
 
 Dove: 
-- $$ P(x) $$ è la probabilità di pescare la carta 𝑥
-- $$ P_{win | x} $$ è la probabilità di vincere dato che abbiamo pescato la carta 𝑥
+- ` P(x) ` è la probabilità di pescare la carta 𝑥
+- ` P_{win | x} ` è la probabilità di vincere dato che abbiamo pescato la carta 𝑥
 
 
 ![Alt text](Img/Gui.png)
