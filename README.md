@@ -83,3 +83,11 @@ Questo modello è stato applicato per analizzare le probabilità di vincita in u
 Grazie all’algoritmo ricorsivo, il sistema è in grado di simulare scenari realistici, fornendo suggerimenti ottimali basati su calcoli probabilistici.
 
 ![Alt text](Img/Gui.png)
+
+## 🌐 Prova la Demo Online
+
+Puoi provare la versione online del software cliccando sul link qui sotto:
+
+[🔗 Demo Online](https://enrico-maria-sciarrabba-bj.netlify.app/)
+
+Esplora le funzionalità e testa il modello probabilistico direttamente dal tuo browser!
