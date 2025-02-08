@@ -84,6 +84,8 @@ Grazie all’algoritmo ricorsivo, il sistema è in grado di simulare scenari rea
 
 ![Alt text](Img/Gui.png)
 
+<span>&nbsp;</span>
+
 ## 🌐 Prova la Demo Online
 
 Puoi provare la versione online del software cliccando sul link qui sotto:
